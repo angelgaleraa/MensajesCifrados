@@ -26,7 +26,7 @@ public class ServidorTCP {
                 String mensajeCifrado = entrada.readLine();
                 String mensajeDescifrado = CifradoAES.descifrar(mensajeCifrado);
 
-                System.out.println("Mensaje recibido (descifrado): " + mensajeCifrado);
+                System.out.println("Mensaje recibido (cifrado): " + mensajeCifrado);
 
                 System.out.println("Mensaje recibido (descifrado): " + mensajeDescifrado);
 
